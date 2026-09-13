@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <h1> Guerra do Vietnam </h1>
+    <div id="box-forms">
+        <form name="form1" action="game.html" onsubmit="return sendInfo()">
+            Digite o seu nome: <input type="text" id="nameTxt"> <br>
+            Classe: <select id="playerClass">
+                <option> Artilheiro </option>
+                <option> Bombardeiro </option>
+                <option> Comandante de campo </option> 
+            </select> <br>
+
+            Dificuldade: <select id="difficulty">
+                <option> Facil </option>
+                <option> Medio </option>
+                <option> Dificil </option> 
+            </select>
+
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <script src="homepage.js"></script>
+</body>
+</html>

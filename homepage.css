@@ -1,0 +1,40 @@
+body {
+    background-image: url(src/i179i8e0duwa1.jpg);
+    background-size: cover;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.738);
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#box-forms {
+    height: 300px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.638);
+    border-radius: 20px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+form p {
+    
+}

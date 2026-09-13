@@ -1,0 +1,37 @@
+body {
+    align-items: center;
+    justify-items: center;
+    background-image: url(src/war-room-pic.png);
+    background-size: 1550px;
+    background-position: center;
+}
+
+#table-game {
+    margin-top: 50px;
+    display: grid;
+    
+    width: 500px;
+    height: 500px;
+    border: black, solid, 3px;
+}
+
+#game-control {
+    margin-top: 25px;
+    display: flex;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#table-game div {
+    background-image:url("src/drone-view-of-green-palm-forest.png");
+    background-size:cover
+}
+
+.test {
+    background-color: black;
+    border: white, 2px, solid;
+}
